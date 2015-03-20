@@ -25,3 +25,5 @@ Here’s a quick rundown of the instance variables (via 'iOS 7 By Tutorials'):
 
 - Add Lights on/off
 - Front Camera/Rear Camera
+- Add rectangle to the Visualization preview screen
+- Create a class to handle all the ViewController stuff as a standalone ViewController
