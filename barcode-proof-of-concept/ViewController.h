@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@import AVFoundation;
 
-@interface ViewController : UIViewController<UIAlertViewDelegate>
+@interface ViewController : UIViewController<UIAlertViewDelegate, AVCaptureMetadataOutputObjectsDelegate>
 @property (strong, nonatomic) NSMutableArray * allowedBarcodeTypes;
 
 

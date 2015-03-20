@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "Barcode.h"
-@import AVFoundation;
+
 
 @interface ViewController ()
 @property (strong, nonatomic) NSMutableArray * foundBarcodes;
