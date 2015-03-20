@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F4D25301ABCA538008BFE94 /* barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D252F1ABCA538008BFE94 /* barcode.m */; };
+		9F4D25321ABCDB80008BFE94 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D25311ABCDB80008BFE94 /* Readme.md */; };
 		9F8BB0251ABC971800F3CBC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BB0241ABC971800F3CBC4 /* main.m */; };
 		9F8BB0281ABC971800F3CBC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BB0271ABC971800F3CBC4 /* AppDelegate.m */; };
 		9F8BB02B1ABC971800F3CBC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BB02A1ABC971800F3CBC4 /* ViewController.m */; };
@@ -32,6 +33,7 @@
 		95EFAD0008D921FF2CF98854 /* Pods-barcode-proof-of-concept.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-barcode-proof-of-concept.release.xcconfig"; path = "Pods/Target Support Files/Pods-barcode-proof-of-concept/Pods-barcode-proof-of-concept.release.xcconfig"; sourceTree = "<group>"; };
 		9F4D252E1ABCA538008BFE94 /* barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barcode.h; sourceTree = "<group>"; };
 		9F4D252F1ABCA538008BFE94 /* barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = barcode.m; sourceTree = "<group>"; };
+		9F4D25311ABCDB80008BFE94 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		9F8BB01F1ABC971800F3CBC4 /* barcode-proof-of-concept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "barcode-proof-of-concept.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8BB0231ABC971800F3CBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F8BB0241ABC971800F3CBC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		9F8BB0161ABC971800F3CBC4 = {
 			isa = PBXGroup;
 			children = (
+				9F4D25311ABCDB80008BFE94 /* Readme.md */,
 				9F8BB0211ABC971800F3CBC4 /* barcode-proof-of-concept */,
 				9F8BB03B1ABC971800F3CBC4 /* barcode-proof-of-conceptTests */,
 				9F8BB0201ABC971800F3CBC4 /* Products */,
@@ -254,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4D25321ABCDB80008BFE94 /* Readme.md in Sources */,
 				9F4D25301ABCA538008BFE94 /* barcode.m in Sources */,
 				9F8BB02B1ABC971800F3CBC4 /* ViewController.m in Sources */,
 				9F8BB0281ABC971800F3CBC4 /* AppDelegate.m in Sources */,
