@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F4D25301ABCA538008BFE94 /* barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4D252F1ABCA538008BFE94 /* barcode.m */; };
 		9F8BB0251ABC971800F3CBC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BB0241ABC971800F3CBC4 /* main.m */; };
 		9F8BB0281ABC971800F3CBC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BB0271ABC971800F3CBC4 /* AppDelegate.m */; };
 		9F8BB02B1ABC971800F3CBC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8BB02A1ABC971800F3CBC4 /* ViewController.m */; };
@@ -27,6 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4950F2C33EF9FDCCC7EEDCD9 /* Pods-barcode-proof-of-concept.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-barcode-proof-of-concept.debug.xcconfig"; path = "Pods/Target Support Files/Pods-barcode-proof-of-concept/Pods-barcode-proof-of-concept.debug.xcconfig"; sourceTree = "<group>"; };
+		95EFAD0008D921FF2CF98854 /* Pods-barcode-proof-of-concept.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-barcode-proof-of-concept.release.xcconfig"; path = "Pods/Target Support Files/Pods-barcode-proof-of-concept/Pods-barcode-proof-of-concept.release.xcconfig"; sourceTree = "<group>"; };
+		9F4D252E1ABCA538008BFE94 /* barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = barcode.h; sourceTree = "<group>"; };
+		9F4D252F1ABCA538008BFE94 /* barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = barcode.m; sourceTree = "<group>"; };
 		9F8BB01F1ABC971800F3CBC4 /* barcode-proof-of-concept.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "barcode-proof-of-concept.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8BB0231ABC971800F3CBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F8BB0241ABC971800F3CBC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		9F8BB0381ABC971800F3CBC4 /* barcode-proof-of-conceptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "barcode-proof-of-conceptTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8BB03D1ABC971800F3CBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F8BB03E1ABC971800F3CBC4 /* barcode_proof_of_conceptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = barcode_proof_of_conceptTests.m; sourceTree = "<group>"; };
+		C14C98C80D70780E25196756 /* libPods-barcode-proof-of-concept.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-barcode-proof-of-concept.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3DE9662D438CFAA6FC21E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C14C98C80D70780E25196756 /* libPods-barcode-proof-of-concept.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D608DE22A33C56A7360F1EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4950F2C33EF9FDCCC7EEDCD9 /* Pods-barcode-proof-of-concept.debug.xcconfig */,
+				95EFAD0008D921FF2CF98854 /* Pods-barcode-proof-of-concept.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F4D252D1ABCA51A008BFE94 /* Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				9F4D252E1ABCA538008BFE94 /* barcode.h */,
+				9F4D252F1ABCA538008BFE94 /* barcode.m */,
+			);
+			name = Barcode;
+			sourceTree = "<group>";
+		};
 		9F8BB0161ABC971800F3CBC4 = {
 			isa = PBXGroup;
 			children = (
 				9F8BB0211ABC971800F3CBC4 /* barcode-proof-of-concept */,
 				9F8BB03B1ABC971800F3CBC4 /* barcode-proof-of-conceptTests */,
 				9F8BB0201ABC971800F3CBC4 /* Products */,
+				1D608DE22A33C56A7360F1EF /* Pods */,
+				0A3DE9662D438CFAA6FC21E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +115,7 @@
 		9F8BB0211ABC971800F3CBC4 /* barcode-proof-of-concept */ = {
 			isa = PBXGroup;
 			children = (
+				9F4D252D1ABCA51A008BFE94 /* Barcode */,
 				9F8BB0261ABC971800F3CBC4 /* AppDelegate.h */,
 				9F8BB0271ABC971800F3CBC4 /* AppDelegate.m */,
 				9F8BB0291ABC971800F3CBC4 /* ViewController.h */,
@@ -219,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4D25301ABCA538008BFE94 /* barcode.m in Sources */,
 				9F8BB02B1ABC971800F3CBC4 /* ViewController.m in Sources */,
 				9F8BB0281ABC971800F3CBC4 /* AppDelegate.m in Sources */,
 				9F8BB0251ABC971800F3CBC4 /* main.m in Sources */,
@@ -263,48 +299,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9F8BB0401ABC971800F3CBC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		9F8BB0411ABC971800F3CBC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -341,16 +335,6 @@
 			};
 			name = Release;
 		};
-		9F8BB0431ABC971800F3CBC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "barcode-proof-of-concept/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
 		9F8BB0441ABC971800F3CBC4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -360,25 +344,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
-		};
-		9F8BB0461ABC971800F3CBC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "barcode-proof-of-conceptTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/barcode-proof-of-concept.app/barcode-proof-of-concept";
-			};
-			name = Debug;
 		};
 		9F8BB0471ABC971800F3CBC4 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -401,7 +366,6 @@
 		9F8BB01A1ABC971800F3CBC4 /* Build configuration list for PBXProject "barcode-proof-of-concept" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F8BB0401ABC971800F3CBC4 /* Debug */,
 				9F8BB0411ABC971800F3CBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -410,18 +374,18 @@
 		9F8BB0421ABC971800F3CBC4 /* Build configuration list for PBXNativeTarget "barcode-proof-of-concept" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F8BB0431ABC971800F3CBC4 /* Debug */,
 				9F8BB0441ABC971800F3CBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F8BB0451ABC971800F3CBC4 /* Build configuration list for PBXNativeTarget "barcode-proof-of-conceptTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F8BB0461ABC971800F3CBC4 /* Debug */,
 				9F8BB0471ABC971800F3CBC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
